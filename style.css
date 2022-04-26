@@ -1,0 +1,57 @@
+body{
+align-content: center;
+}
+
+h1{
+color: white;
+font-family:Old English Text MT;
+font-size: 60px;
+}
+
+p{
+color: black;
+background-color: aliceblue;
+font-size: 25px;
+width: 400px;
+height: 40px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#show_sketch{
+float: right;
+}
+
+#score{
+    color: rgb(0, 0, 0);
+    background-color: rgb(138, 244, 1);
+    font-size: 25px;
+    width: 150px;
+    text-align: center;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#timer{
+    color: rgb(0, 0, 0);
+    background-color: rgb(138, 244, 1);
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+    float: right;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+canvas{
+    margin-top: 60px;
+    border: 5px solid black;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+from{box-shadow: 1px 1px 25px rgb(255, 255, 255);}
+to{box-shadow: 1px 1px 25px rgb(0, 255, 17);}
+}
